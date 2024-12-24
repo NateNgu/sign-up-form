@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.85;
+}
+
+#side-content {
+    width: 40%;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#main-content div {
+    width: 100%;
+}
+
+#header-info, #action {
+    height: 40%;
+}
+
+#header-info {
+    background: #f3f3f3;
+}
+
+#sign-up-form {
+    height: 35%;
+}
+
+#action {
+    background: #f3f3f3;
+}

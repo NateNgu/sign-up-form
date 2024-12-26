@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="side-content">
-        <img src="bg.jpg" alt="">
-
+      <img src="bg.jpg" alt="" />
     </div>
 
     <div id="main-content">
-        <div id="header-info"></div>
-        <div id="sign-up-form"></div>
-        <div id="action"></div>
+      <div id="header-info" class="section">
+        <h3>
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+        </h3>
+        <h3>You<em> know </em>you want to.</h3>
+      </div>
+      <div id="sign-up-form" class="section">
+        <h3>Let's do this!</h3>
+        <form action="">
+            <div id="row">
+                <div class="input">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="input">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+            </div>
+            <div id="row">
+                <div class="input">
+                    <label for="first-name">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="input">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" id="phone-number">
+                </div>
+            </div>
+            <div id="row">
+                <div class="input">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="input">
+                    <label for="password-confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="password-confirm" id="password-confirm">
+                </div>
+            </div>
+          </form>
+        </div>
+        <div id="action" class="section"></div>
+      </div>
+
     </div>
-</body>
+  </body>
 </html>

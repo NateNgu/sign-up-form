@@ -15,7 +15,8 @@
   </head>
   <body>
     <div id="side-content">
-      <img src="bg.jpg" alt="" />
+      <div><img src="odin-lined.png" alt="Odin Logo" id="logo">ODIN</div>
+      <h5>Photo by Halie West on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></h5>
     </div>
 
     <div id="main-content">
@@ -27,7 +28,7 @@
       </div>
       <div id="sign-up-form" class="section">
         <h3>Let's do this!</h3>
-        <form action="">
+        <form action="" id="sign-up">
             <div id="row">
                 <div class="input">
                     <label for="first-name">FIRST NAME</label>
@@ -51,16 +52,19 @@
             <div id="row">
                 <div class="input">
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required>
                 </div>
                 <div class="input">
                     <label for="password-confirm">CONFIRM PASSWORD</label>
-                    <input type="password" name="password-confirm" id="password-confirm">
+                    <input type="password" name="password-confirm" id="password-confirm" required>
                 </div>
             </div>
           </form>
         </div>
-        <div id="action" class="section"></div>
+        <div id="action" class="section">
+          <button type="submit" form="sign-up" >Create Account</button>
+          <h5>Already have an account? <a href="" target="_blank">Log in</a></h5>
+        </div>
       </div>
 
     </div>
